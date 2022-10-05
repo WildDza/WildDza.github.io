@@ -1,0 +1,30 @@
+.places {
+  margin: 92px auto;
+  display: grid;
+  grid-row-gap: 80px;
+  width: calc(100% - 148px * 2);
+}
+
+@media screen and (max-width: 1279px) {
+  .places {
+    width: calc(100% - 48px * 2);
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .places {
+    display: grid;
+    margin: 88px auto 90px;
+    width: calc(100% - 24px * 2);
+    grid-row-gap: 73px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .places {
+    display: grid;
+    margin: 64px auto 66px;
+    width: 100%;
+    grid-row-gap: 50px;
+  }
+}
